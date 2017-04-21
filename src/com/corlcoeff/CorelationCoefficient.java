@@ -4,7 +4,7 @@ public class CorelationCoefficient {
 	public static void main(String args[]) {
 		double x[] = { 5, 2, 8, 4, 6 }, y[] = { 25, 11, 34, 23, 32 };
 
-		double sumX = 0.0, sumY = 0.0, meanX, meanY, x_pow2, x_mul_y, x_sub_meanX, y_sub_meanY, x_sub_meanX_pow2, y_sub_meanY_pow2, x_sub_meanX_mul_y_sub_meanY, x_pow2_sum=0.0, x_mul_y_sum=0.0, x_sub_meanX_sum=0.0
+		double sumX = 0.0, sumY = 0.0, meanX, meanY, /*x_pow2, x_mul_y,*/ x_sub_meanX, y_sub_meanY, x_sub_meanX_pow2, y_sub_meanY_pow2, x_sub_meanX_mul_y_sub_meanY, /*x_pow2_sum=0.0, x_mul_y_sum=0.0,*/ x_sub_meanX_sum=0.0
 				, y_sub_meanY_sum=0.0, x_sub_meanX_pow2_sum=0.0, y_sub_meanY_pow2_sum=0.0, x_sub_meanX_mul_y_sub_meanY_sum=0.0;
 		double cov_xy, s_x, s_y, r_xy;
 		
